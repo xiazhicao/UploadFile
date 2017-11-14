@@ -11,3 +11,6 @@ https://github.com/xiazhicao/UploadFile.git
 
 ## Entry
 APP.java
+
+## function
+Upload txt file with meta data and then display those data.
