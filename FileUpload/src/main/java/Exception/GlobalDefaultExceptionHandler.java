@@ -10,7 +10,7 @@ public class GlobalDefaultExceptionHandler {
 //	record and output any exception message
 	@ExceptionHandler(value=Exception.class)
 	public String defaultErrorHandler(Exception e, RedirectAttributes redirect) throws Exception {
-			redirect.addFlashAttribute("message", e.getCause().getMessage());
-			return "redirect:/uploadpage";
+			redirect.addFlashAttribute("exception", e.getCause().getMessage());
+			return "error";
 	}
 }

@@ -28,19 +28,19 @@
     </dependency>
     
     <!-- https://mvnrepository.com/artifact/junit/junit -->
-<dependency>
+	<dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <scope>test</scope>
-</dependency>
+	</dependency>
     
     
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
-<dependency>
+	<dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-test</artifactId>
     <scope>test</scope>
-</dependency>
+	</dependency>
     
     
     <!-- hot swapping, disable cache for template, enable live reload -->
@@ -51,11 +51,11 @@
         </dependency>
         
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
-<dependency>
+	<dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-test</artifactId>
     <scope>test</scope>
-</dependency>
+	</dependency>
         
     
     <dependency>
